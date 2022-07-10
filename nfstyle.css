@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.firstpart {
+    padding: 0 0 70px;
+}
+
+.nflogo {
+    padding: 0;
+    margin: 0;
+}
+
+.nflogo img {
+    height: 75px;
+}
+
+.frow {
+    display: flex;
+    margin: 0 46px;
+    padding: 8px 0;
+}
+
+.rpfrow {
+    display: flex;
+    float: right;
+    position: absolute;
+    left: 81%;
+}
+
+.rpfrow .languagechanger {
+    padding: 8px;
+    margin: 8px;
+}
+
+.rpfrow .signin {
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.languagechanger select {
+    padding: 8px 5px 8px;
+    font-size: 15px;
+    font-family: 'Lato' sans-serif;
+    border-radius: 2px;
+    border: solid white 1px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+.languagechanger select option {
+    font-size: 13px;
+}
+
+.signin button {
+    padding: 7px 21px 7px;
+    background-color: #df101a;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+.middletext {
+    position: relative;
+    width: 100%;
+    padding: 75px 0;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+
+.middletext h1 {
+    font-size: 3.12rem;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    max-width: 640px;
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 1.1;
+}
+
+.middletext h2 {
+    font-size: 1.625rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 350;
+    line-height: 1.1;
+}
+
+.middletext h3 {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    display: block;
+}
+
+.emailad {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+}
+
+.emailad input {
+    outline: 0;
+    border: none;
+    border-radius: 2px;
+    width: 500px;
+    height: 56px;
+    font-size: 16px;
+    padding: 16px 0 10px;
+    color: black;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.emailad label {
+    color: #8c8c8c;
+    position: absolute;
+    font-size: 16px;
+    padding: 0 12px;
+    transform-origin: top left;
+    transform: translate(0, 16px) scale(1);
+    transition: all .1s ease-in-out;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+.emailad:active label {
+    transform: translate(0, 4px) scale(.75);
+}
+
+.emailad button {
+    width: 202px;
+    height: 30px;
+    padding: 7px 8px 50px;
+    border: none;
+    background-color: #df101a;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 350;
+    font-size: 28px;
+    color: white;
+}
+
+.storyconatainer {
+    border-top: solid 8px #222;
+    padding: 70px 45px;
+    margin: 20px 0;
+}
+
+.storyconatainer .secondpart {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.storyconatainer .thirdpart {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.storyconatainer .fourthpart {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.storyconatainer .fifthpart {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    width: 52%;
+    height: 100%;
+    padding: 10px;
+    width: 52%;
+    height: 100%;
+    flex: 0 1 auto;
+    padding: 0 3rem 0 0;
+    z-index: 3;
+}
+
+.text h1 {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    font-weight: 550;
+    margin: 0 0 8px;
+}
+
+.text h2 {
+    font-size: 1.625rem;
+    font-weight: 400;
+    max-width: 560px;
+}
+
+.animation {
+    width: 48%;
+    height: 100%;
+    padding: 10px;
+}
+
+.sixthpart {
+    position: relative;
+    border-top: 8px solid #222;
+    padding: 50px 5%;
+    margin-bottom: 0;
+    background: 0 0;
+    color: #fff;
+}
+
+.questionboxes {
+    font-size: 1.625rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.questionboxes h1 {
+    font-size: 3.12rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.sixthpart ul {
+    margin: 52px 222px;
+    padding: 0;
+}
+
+.sixthpart li {
+    list-style-type: none;
+    margin: 0 0 8px 0;
+    margin-bottom: 8px;
+}
+
+.sixthpart button {
+    padding: .8em 2.2em 0.8em 1.2em;
+    margin-bottom: 1px;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+    border: 0;
+    display: block;
+    text-align: left;
+    background: #303030;
+    overflow: visible;
+    color: white;
+    font-size: 16pt;
+}
+
+.accordion-body {
+    /* display: none; */
+    text-align: left;
+    background: #303030;
+    font-family: 'Poppins', sans-serif;
+    padding: 1.2em;
+    color: white;
+    font-weight: 400;
+    font-size: 16pt;
+}
+
+.anspart span {
+    transition: 2s display;
+}
+
+.questions li:hover {
+    cursor: pointer;
+}
+
+.questions .accordion-button:active {
+    background-color: #303030;
+}
+
+/* .questions li:hover .anspart {
+    display: block;
+    max-height: 500vh;
+} */
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #303030;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-item {
+    background-color: #fff;
+    border: none;
+}
+
+.emailad2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+}
+
+.emailad2 input {
+    outline: 0;
+    border: none;
+    border-radius: 2px;
+    width: 500px;
+    height: 56px;
+    font-size: 16px;
+    padding: 16px 0 10px;
+    color: black;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.emailad2 label {
+    color: #8c8c8c;
+    position: absolute;
+    font-size: 16px;
+    padding: 0 12px;
+    transform-origin: top left;
+    transform: translate(0, 16px) scale(1);
+    transition: all .1s ease-in-out;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+.emailad2:active label {
+    transform: translate(0, 4px) scale(.75);
+}
+
+.emailad2 button {
+    width: 202px;
+    height: 30px;
+    padding: 7px 8px 50px;
+    border: none;
+    background-color: #df101a;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 350;
+    font-size: 28px;
+    color: white;
+}
+
+.form2 h3 {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    display: block;
+}
+
+.form2 {
+    position: relative;
+    width: 100%;
+    padding: 0 246px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+
+#emailcontainer2 {
+    display: flex;
+}
+
+.last {
+    border-top: #222 8px solid;
+    padding: 70px 45px;
+}
+
+.finalpart {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.last ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.last li {
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+    vertical-align: top;
+    text-align: left;
+    max-width: 1000px;
+    font-size: 13px;
+    font-family: 'poppins', sans-serif;
+    color: #757575;
+}
+
+.last p {
+    font-size: 13px;
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    margin: 0 40px 30px;
+    font-size: 1em;
+    color: #757575;
+}
+
+#nfIndia {
+    font-size: 13px;
+    margin-top: 24px;
+}
+
+.last .languagechanger {
+    margin-top: 20px;
+    padding: 0 38px 0;
+}
+
+.last .languagechanger select {
+    color: #757575;
+    border: solid 1px #757575;
+}
